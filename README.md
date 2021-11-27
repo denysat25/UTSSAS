@@ -9,76 +9,75 @@
   + File ISO [Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
   + Snack
   
-  Lauch Virtual Box and Click button NEW
+  Create Virtual Machine, Enter the name of machine, machine location , type, and version use windows 2019
   
   ![1](windows2022/0001.png)
   
-  Create Virtual Machine, Enter the name of machine, machine location , type, and version use windows 2019
+  Start Virtual Machine 
   
-  ![2](Assets/Instalasi-windows-server-2022/name-operating-system.png)
+  ![1](windows2022/001.png)
   
-  then install as usual
+  after that install as usually
   
-  Click VM and go to setting, at network changes attached to Bridged Adapter
+  Start VM, and you will see a pop up Select start-up disk, add the previously downloaded iso file
   
-  ![2](Assets/Instalasi-windows-server-2022/network-bridged-adapter.png)
-  
-  Start VM, you will see a pop up Select start-up disk, add the previously downloaded iso file
-  
-  ![2](Assets/Instalasi-windows-server-2022/add-iso.png)
+  ![1](windows2022/002.JPG)
   
   Setting language, time and country, click Next
   
-  ![2](Assets/Instalasi-windows-server-2022/set-language.png)
+  ![1](windows2022/003.png)
   
   Click Install now
   
-  ![2](Assets/Instalasi-windows-server-2022/install.png)
+  ![1](windows2022/004.png)
   
   Select the Operating system you want to install , i am select Windows Server 2022 Standard Evaluation with Desktop experience, click next
   
-  ![2](Assets/Instalasi-windows-server-2022/desktop-expreience.png)
+  ![1](windows2022/005a.png)
   
-  Accept Applicable notices and License terms, click next <p></p>
+  Accept Applicable notices and License terms, click next
+  ![1](windows2022/006.png)
+  
   In which type of installation use Custom , click next</p>
   
-  ![2](Assets/Instalasi-windows-server-2022/type-installation.png)
+  ![1](windows2022/007.png)
   
   Partition location just click Next
   
-  ![2](Assets/Instalasi-windows-server-2022/partisi-location.png)
+  ![1](windows2022/008.png)
   
-  waiting for installation, it takes 10 - 30 minutes, get out your snack and relax a bit
+  waiting for installation, it takes 10 - 15 minutes, get out your snack and relax a bit
   
-  ![2](Assets/Instalasi-windows-server-2022/installing-oprating-system.png)
+  ![1](windows2022/009.png)
   
   After installation conplete, Enter the Customize settings. and click finish
   
-  ![2](Assets/Instalasi-windows-server-2022/administrator.png)
+  ![1](windows2022/011.png)
   
-  On top click  input  > keyboard select Insert Ctrl+Alt+Del now you can insert password
+  Insert password
   
-  ![2](Assets/Instalasi-windows-server-2022/login.png)
+  ![1](windows2022/013.png)
   
-  If you see pop up click X and minimize Server manager
+  After that, click ```Device``` > ```Insert Guest Additions CD images```
   
-  ![2](Assets/Instalasi-windows-server-2022/server-manager.png)
+  Go to ```Document``` > ```CD Drive select application VBoxWindowsAdditions```
   
-  On top click Devices > Insert Guest Additions CD images
+  ![1](windows2022/015.png)
   
+  Just follow default setting,  VM will reboot <p></p>
   
-  ![2](Assets/Instalasi-windows-server-2022/insert-guest-additions.png)
+  ![1](windows2022/016.png)
   
-  Go to Document > CD Drive select application VBoxWindowsAdditions
+  ![1](windows2022/017.png)
   
-  ![2](Assets/Instalasi-windows-server-2022/cd-vbox-additons.png)
+  ![1](windows2022/018.png)
   
-  Just click Next, Next, install and Finish, VM will reboot <p></p>
-  Type in search winver for check Windows Server 2022 is complete to install
+  ![1](windows2022/019.png)
   
-  ![2](Assets/Instalasi-windows-server-2022/run-winver.png)
+  Last, in search column writw winver for check Windows Server 2022 is complete to install
   
+  ![1](windows2022/020.png)
   
-  ![2](Assets/Instalasi-windows-server-2022/about-windows.png)
+  ![1](windows2022/021.png)
   
 * ## Instalasi Active Directory Domain Services
