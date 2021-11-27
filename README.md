@@ -79,5 +79,3 @@
   ![1](windows2022/020.png)
   
   ![1](windows2022/021.png)
-  
-* ## Instalasi Active Directory Domain Services
